@@ -3,7 +3,9 @@ package it.lan.demojavascraping.controller;
 import it.lan.demojavascraping.config.EmailConfiguration;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class FeedbackController {
     private EmailConfiguration emailCfg;
 
